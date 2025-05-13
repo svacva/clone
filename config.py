@@ -14,16 +14,16 @@ class Config(object):
     TG_BOT_TOKEN = "Your_Telegram_bot_token"
 
     # Get from my.telegram.org
-    APP_ID = int(Your_telegram_App_Id)
+    APP_ID = int(25149611)
 
     # Get from my.telegram.org
-    API_HASH = "Your_Telegram_Api_Hash"
+    API_HASH = "1793851895dd1376678214542445c652"
 
     # Generate a user session string
-    TG_USER_SESSION = "Your_user_session_string_compatible_with_Pyrogram_v2"
+    TG_USER_SESSION = "BQF_wKsAu_YQHsn5NSEEZGA2VCQNoVaLGJVLtYHSAjZFlRWNP3S19vCXAF3Y3dKvIXEntkhJfLuzKMUaeL3ySh-3c_P7Ij7t24Uv01xJ0onoszo5nuisqM8xIUbmo9uH1KDtD8XopjbTIqVUG7XNB0l9CTJln8cVJRl_nwLShUDlkX_JnC3ltv1EeHQVZU692LbmwSF7OTXQdtjHiuegNsKJHNvUM9qU1EjF-tsKw0ABJkGtkMkOLhNfnyD15gNFtMu3ZtIWbomkFwuqmRxlUML4CuH1VoC0XCDzsSnpXub8GnBcOlVFRupGJHs__76kQN1HowgRYICWKmDyOrqe6jVENH69YAAAAABVXjtZAA"
 
     # Database URI
-    DB_URI = "Your_database_URI"
+    DB_URI = "mongodb+srv://cva5545:IUOHUwWxVdlDyzbH@cluster0.l031f.mongodb.net/?retryWrites=true&w=majority"
 
 
 def LOGGER(name: str) -> logging.Logger:
